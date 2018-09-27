@@ -1,0 +1,15 @@
+ Select facedata: 
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dir')" style="font-weight:bold">dir</a>
+Invalid path. The path must not contain a null character.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('random_load', '/Users/paolo/Dropbox/EIM/progetto/DA CONSEGNARE/SCRIPT_TRAINING/random_load.m', 15)" style="font-weight:bold">random_load</a> (<a href="matlab: opentoline('/Users/paolo/Dropbox/EIM/progetto/DA CONSEGNARE/SCRIPT_TRAINING/random_load.m',15,0)">line 15</a>)
+names = dir(directory);
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('CascadeTraining', '/Users/paolo/Dropbox/EIM/progetto/DA CONSEGNARE/SCRIPT_TRAINING/CascadeTraining.m', 48)" style="font-weight:bold">CascadeTraining</a> (<a href="matlab: opentoline('/Users/paolo/Dropbox/EIM/progetto/DA CONSEGNARE/SCRIPT_TRAINING/CascadeTraining.m',48,0)">line 48</a>)
+images_train_pos = random_load(directory_faces, numTrain);
+
+} 
+noise
+noise
